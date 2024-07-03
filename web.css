@@ -12,7 +12,7 @@ header{
 .menu {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 15px;
     margin-right: 10px;
 }
 a{
@@ -44,25 +44,43 @@ a{
 }
 
 .goal {
-    background-color: purple;
-    color: white;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 #goalh2 {
-    display: flex;
-    justify-content: center;
+    text-align: center; 
 }
 
-#links a{
+.links-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links-list li {
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+.links-list li a {
     color: #000;
+    text-decoration: none;
 }
-
-
+#Usefullink{
+    margin-left: 1.5rem;
+}
 footer {
     background-color: purple;
     color: white;
     text-align: center;
     padding: 1rem;
 }
+@media only screen and (max-width: 768px) {
+    .profile-picture {
+        display: none;
+    }
+}
+
+
